@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    background-color: burlywood;
+    color: rgb(36, 11, 11);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.one{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.two {
+    display: none;
+    height: 300px;
+    align-items: center;
+
+}
+#nome{
+    width: 230px;
+    height: 28px;
+    margin: 6px 0;
+}
+#enviar {
+    height: 28px;
+    width: 60px;
+}
+button{
+    width: 95px;
+    height: 28px;
+}
+.two1{
+    display: flex;
+}
+
+.two2{
+    display: none;
+}
